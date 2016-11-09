@@ -1,5 +1,5 @@
 {
-    "name": "lifeinabash/oauth2bundle",
+    "name": "lifeinabash/oauth2-serverbundle",
     "description": "This is a Symfony extention emplimenting league/oauth2-server",
     "type": "symfony-extention",
     "require": {
@@ -20,7 +20,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "LifeInABash\\OAuth2ServerBundle\\": "src/"
+            "Lifeinabash\\OAuth2\\ServerBundle\\": "src/"
         }
     },
     "minimum-stability": "stable"

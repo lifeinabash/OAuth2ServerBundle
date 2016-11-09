@@ -1,13 +1,13 @@
 <?php
 
-namespace LifeInABash\OAuth2ServerBundle\DependencyInjection;
+namespace Lifeinabash\OAuth2\ServerBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
-class LifeInABashOAuth2ServerExtension extends Extension
+class LifeinabashOAuth2ServerExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
