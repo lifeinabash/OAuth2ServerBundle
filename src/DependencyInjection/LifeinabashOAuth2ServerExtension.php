@@ -1,6 +1,6 @@
 <?php
 
-namespace Lifeinabash\OAuth2\ServerBundle\DependencyInjection;
+namespace Lifeinabash\OAuth2ServerBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -15,6 +15,7 @@ class LifeinabashOAuth2ServerExtension extends Extension
             $container,
             new FileLocator(__DIR__.'/../Resources/config')
         );
-        //$loader->load('services.xml');
+
+ //       $loader->load('services.xml');
     }
 }

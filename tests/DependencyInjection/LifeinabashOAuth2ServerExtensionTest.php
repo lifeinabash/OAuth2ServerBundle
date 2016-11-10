@@ -1,6 +1,6 @@
 <?php
 
-use Lifeinabash\OAuth2\ServerBundle\DependencyInjection\LifeinabashOAuth2ServerExtension;
+use Lifeinabash\OAuth2ServerBundle\DependencyInjection\LifeinabashOAuth2ServerExtension;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 

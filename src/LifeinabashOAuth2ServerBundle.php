@@ -1,8 +1,8 @@
 <?php
 
-namespace Lifeinabash\OAuth2\ServerBundle;
+namespace Lifeinabash\OAuth2ServerBundle;
 
-use Lifeinabash\OAuth2\ServerBundle\DependencyInjection\LifeinabashOAuth2ServerExtension;
+use Lifeinabash\OAuth2ServerBundle\DependencyInjection\LifeinabashOAuth2ServerExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class LifeinabashOAuth2ServerBundle extends Bundle
