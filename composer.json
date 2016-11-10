@@ -20,7 +20,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Lifeinabash\\OAuth2\\ServerBundle\\": "src/"
+            "Lifeinabash\\OAuth2ServerBundle\\": "src/"
         }
     },
     "minimum-stability": "stable"
